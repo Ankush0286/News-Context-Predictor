@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Load the dataset with error handling
-data = pd.read_csv(r"D:\Project Datasets\Fake.csv")
+data = pd.read_csv(r"D:\Project Datasets\NewsData.csv")
 
 # Fill any missing values with an empty string
 data.fillna('', inplace=True)
