@@ -1,1 +1,3 @@
 # News-Context-Predictor
+
+"News Context Predictor" project uses machine learning to predict the context or subject of a news article. The code processes a dataset containing news articles by combining the title, text, and subject into a single feature. It uses the TF-IDF vectorizer to convert the text into numerical features and applies Logistic Regression for classification. The model is trained to predict the subject of a news article, and its performance is evaluated using accuracy, a confusion matrix, and a classification report. The project also includes a function to predict the subject of new user-provided news text.
